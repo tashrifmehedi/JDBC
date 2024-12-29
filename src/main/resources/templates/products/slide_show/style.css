@@ -1,0 +1,22 @@
+.container-display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: cadetblue;
+}
+.slideshow-elements{
+
+}
+.slideshow-element{
+    text-align: center;
+    position: absolute;
+    transform: translate(-50%,-50%) scale(0);
+}
+.slideshow-element i, h2{
+    font-size: 10rem;
+    color: aqua;
+}
+.slideshow-element .current{
+    transform: translate(-50%,-50%) scale(1);
+}
